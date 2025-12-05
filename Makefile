@@ -23,4 +23,18 @@ stop:
 
 test:
 	python -m pytest -q
+
+set-:
+	set -a 
+
+source:
+	source .env
+
+set+:
+	set +a
+
+echo:
+	echo $RABBIT_URL
+	
+
 #
